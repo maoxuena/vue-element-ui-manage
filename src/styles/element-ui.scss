@@ -1,0 +1,19 @@
+// cover some element-ui styles
+// 左侧菜单
+.el-menu-vertical:not(.el-menu--collapse) {
+  width: 210px;
+  // min-height: 400px;
+}
+
+.el-menu {
+  border-right: none;
+
+  .svg-icon {
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+}
+
+.left-nav .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
